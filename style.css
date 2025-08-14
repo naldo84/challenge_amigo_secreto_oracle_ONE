@@ -135,11 +135,12 @@ ul {
 }
 
 .result-list {
-    margin-top: 15px;
+    margin-top: 1px;
     color: #05DF05;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    box-shadow: 0 0 10px var(--color-primary);
 }
 
 /* Botão de sortear título */
@@ -160,3 +161,11 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* */
+.botao-desabilitado {
+  pointer-events: auto; /* permite clique */
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
