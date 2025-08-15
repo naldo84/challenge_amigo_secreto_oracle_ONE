@@ -67,7 +67,7 @@ function verificarLista(){
 const toogleTheme = document.getElementById('toggleTheme');
 const themeStyleSheet = document.getElementById('themeStylesheet');
 
-themeStyleSheet.setAttribute('hre', 'style_dark.css');
+themeStyleSheet.setAttribute('href', 'style.css');
 
 toogleTheme.addEventListener('change', () => {
     if (toogleTheme.checked){
