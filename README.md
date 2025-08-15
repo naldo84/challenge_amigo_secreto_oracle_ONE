@@ -9,6 +9,7 @@ Trata-se de uma aplicação que permite ao usuário inserir nomes de amigos em u
 - 📋 Exibe lista atualizada de amigos  
 - 🎲 Sorteia aleatoriamente um nome da lista  
 - 🔒 Botão de sorteio desabilitado até que haja pelo menos dois participantes  
+- ✅ Alternância de tema entre **modo claro** e **modo escuro suave**
 
 ## 🧠 Lógica de Funcionamento
 - Os nomes são armazenados em um array `listaNomes`.  
@@ -16,6 +17,9 @@ Trata-se de uma aplicação que permite ao usuário inserir nomes de amigos em u
 - A lista é renderizada dinamicamente no HTML.  
 - O botão de sorteio só é habilitado quando há ao menos dois amigos cadastrados.
 - O sorteio escolhe aleatoriamente um nome da lista e exibe o resultado.  
+- O botão de alternância está localizado no canto superior direito da tela.
+    - Ao ativar o tema escuro é aplicado automaticamente
+    - Ao desativar, o tema claro retorna.
 
 ## 📁 Estrutura de Arquivos
 amigo-secreto/  

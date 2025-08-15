@@ -63,3 +63,17 @@ function verificarLista(){
     }
 }
 
+//Alteração entre os modos Light e Dark
+const toogleTheme = document.getElementById('toggleTheme');
+const themeStyleSheet = document.getElementById('themeStylesheet');
+
+themeStyleSheet.setAttribute('hre', 'style_dark.css');
+
+toogleTheme.addEventListener('change', () => {
+    if (toogleTheme.checked){
+        themeStyleSheet.setAttribute('href', 'style_dark.css');
+    } else {
+        themeStyleSheet.setAttribute('href', 'style.css')
+    }
+});
+
